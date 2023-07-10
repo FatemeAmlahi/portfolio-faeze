@@ -32,6 +32,21 @@ nav ul li {
 nav ul li a {
   color: #ffff;
   text-decoration: none;
+  position: relative;
+  transition: 0.5s;
+}
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: var(--color-branding);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover::after {
+  width: 100%;
 }
 nav ul li a:hover {
   color: var(--color-light);
@@ -70,4 +85,8 @@ h2 {
   border-radius: 7px;
   padding: 10px;
   background-color: var(--color-branding);
+}
+.button:hover {
+  color: var(--color-light);
+  transition: 0.5s;
 }
