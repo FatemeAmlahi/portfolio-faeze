@@ -101,7 +101,7 @@ h2 {
   max-width: 57%;
 }
 .titles {
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
   position: relative;
 }
@@ -117,4 +117,16 @@ h2 {
 }
 .titles.active-link::after {
   width: 100%;
+}
+.portfolioImg {
+  max-width: 80%;
+  height: auto;
+  filter: drop-shadow(2px 1px 3px var(--color-light));
+  border-radius: 10px !important;
+}
+.porfolio-content {
+  display: none !important;
+}
+.porfolio-content.active-content {
+  display: block !important;
 }
