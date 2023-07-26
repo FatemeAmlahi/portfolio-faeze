@@ -90,8 +90,14 @@ h2 {
   transition: 0.5s;
 }
 .portfolio {
-  background-color: var(--color-dark);
   color: #ffff;
+  background-color: var(--color-dark);
+}
+.portfolio::after {
+  content: "";
+  display: block;
+  height: 200px;
+  background-color: var(--color-dark);
 }
 .portfolio-titles {
   display: flex;
@@ -129,4 +135,8 @@ h2 {
 }
 .porfolio-content.active-content {
   display: block !important;
+}
+.contact {
+  background-color: var(--color-branding);
+  color: var(--color-dark);
 }
