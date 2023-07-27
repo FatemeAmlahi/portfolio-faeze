@@ -67,7 +67,6 @@ h1 {
 h2 {
   text-align: center;
   margin-bottom: 20px !important;
-  margin-top: 30px !important;
 }
 .about {
   max-width: 70%;
@@ -96,7 +95,7 @@ h2 {
 .portfolio::after {
   content: "";
   display: block;
-  height: 200px;
+  height: 150px;
   background-color: var(--color-dark);
 }
 .portfolio-titles {
@@ -127,7 +126,7 @@ h2 {
 .portfolioImg {
   max-width: 80%;
   height: auto;
-  filter: drop-shadow(2px 1px 3px var(--color-light));
+  filter: drop-shadow(2px 1px 3px #0f172b);
   border-radius: 10px !important;
 }
 .porfolio-content {
@@ -139,4 +138,30 @@ h2 {
 .contact {
   background-color: var(--color-branding);
   color: var(--color-dark);
+}
+.contact-link {
+  text-decoration: none;
+  color: var(--color-dark);
+}
+.contact-link:hover {
+  color: var(--color-light);
+  transition: 0.5s;
+}
+.hompageButton {
+  text-align: center;
+  text-decoration: none;
+  color: #ffff;
+  border: solid var(--color-dark);
+  border-radius: 7px;
+  padding: 10px 20px;
+  background-color: var(--color-dark);
+  filter: drop-shadow(2px 2px 3px #684256);
+}
+.hompageButton:hover {
+  color: var(--color-light);
+  transition: 0.5s;
+}
+.HButtton {
+  display: flex;
+  justify-content: center;
 }
