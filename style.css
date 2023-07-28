@@ -11,8 +11,10 @@ font-family: 'Poppins', sans-serif;*/
 
 header {
   padding-bottom: 140px;
-  background-color: var(--color-dark) !important;
   color: #ffff !important;
+  background-color: var(--color-dark) !important;
+  background-image: url(img/1.jpg);
+  background-size: 100% 100%;
 }
 .container {
   padding: 10px 10%;
@@ -164,4 +166,8 @@ h2 {
 .HButtton {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 815px) {
+}
+@media (max-width: 616px) {
 }
