@@ -31,9 +31,9 @@
       crossorigin="anonymous"
     ></script>
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-/>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
@@ -44,198 +44,252 @@
     <header>
       <div class="container">
         <nav>
-          <h5>Faezeh Amlahi</h6>
-          <ul class="mt-2">
+          <h5>Faezeh Amlahi</h5>
+          <ul id="sidemenu">
             <li>
-              <a href="#"rel="noopener noreferrer">Home</a>
+              <a href="#" rel="noopener noreferrer">Home</a>
             </li>
             <li>
               <a href="#" rel="noopener noreferrer">About me</a>
             </li>
             <li>
-              <a href="#"  rel="noopener noreferrer"
-                >Portfolio</a
-              >
+              <a href="#" rel="noopener noreferrer">Portfolio</a>
             </li>
             <li>
-              <a href="#" rel="noopener noreferrer"
-                >Contact me</a
-              >
+              <a href="#" rel="noopener noreferrer">Contact me</a>
             </li>
-            <i class="fa-regular fa-circle-xmark fa"></i>
+            <i class="fa- fa-circle-xmark fa" onclick="closemenu()"></i>
           </ul>
-        <i class="fa-solid fa-bars fa" style="color: #ffffff;"></i>
+          <i
+            class="fa-solid fa-bars fa"
+            style="color: #ffffff"
+            onclick="openmenu()"
+          ></i>
         </nav>
       </div>
-    
-    
-    <!--Intro-->
-    <section class="intro">
-      <h3>I'm a</h3>
-      <h1>Graphic and motion graphic designer <span class="important">.</span></h1>
 
-    </section>
-  </header>
+      <!--Intro-->
+      <section class="intro">
+        <h3>I'm a</h3>
+        <h1>
+          Graphic and motion graphic designer <span class="important">.</span>
+        </h1>
+      </section>
+    </header>
     <!--About me-->
-   <section class="about mt-5 mb-5">
-    <h2 class="important">About Me</h2>
-    <h5>My name is <span class="important">Faezeh Amlahi</span>.</h5>
-    <p class="aboutP" >
-I hold a degree in graphic design and have gained valuable work experience in this field, particularly within the advertising and marketing departments of various business companies. 
-To further enhance my skill set, I have pursued training and actively engaged in the realm of motion graphics.
- My interest in learning and mastering After Effects has driven me to achieve successful projects in both graphic design and motion graphics,
-  both as a collaborative team member and as an independent freelancer.</p>
-  <div class="container text-center mt-5 mb-5">
-    <div class="row mb-2">
-      <div class="col"><img src="Icon/1.png" alt="" width="45px"></div>
-      <div class="col"><img src="Icon/2.png" alt="" width="45px"></div>
-      <div class="col"><img src="Icon/3.png" alt="" width="45px"></div>
-    </div>
-      <div class="row mt-4">
-      <div class="col"><img src="Icon/4.png" alt="" width="45px"></div>
-      <div class="col"><img src="Icon/5.png" alt="" width="45px"></div>
-      <div class="col"><img src="Icon/6.png" alt="" width="45px"></div>
-    </div>
-  </div>
-  <h4 class="important mt-4 ">Education:</h4>
-  <div class="container d-flex justify-content-between">
-
-
-  <p class="aboutP">Alzahra University <br/>
-    
-    Bachelor of Graphic Design,2016 - 2020</p>
-
-    <a href="#" class="button mt-4">Download CV</a>
-
-    </div>
-   </section>
-   <!--Portfolio-->
-   <section class="portfolio pt-5">
-    <h2 class="pb-5 pt-3">Portfolio</h2>
-    <div class="card-container swiper">
-      <div class="card-content">
-        <div class="swiper-wrapper">
-          <article class="card-article swiper-slide">
-            <div class="card-image">
-              <img src="web.pic/character/3.jpg" alt="image" class="card-img" width="250px" height="300px">
-              <div class="card-shadow"></div>
-            </div>
-            <div class="card-data">
-               <h4 class="card-name">Character</h4>
-            
-
-            </div>
-          </article>
-          <article class="card-article swiper-slide">
-            <div class="card-image">
-              <img src="web.pic/Instagram design/285.jpg" alt="image" class="card-img" height="300px">
-              <div class="card-shadow"></div>
-            </div>
-            <div class="card-data">
-              <h4 class="card-name">Instagram design</h4>
-
-            </div>
-          </article>
-        <article class="card-article swiper-slide">
-            <div class="card-image">
-              <img src="web.pic/layout/1.jpg" alt="image" class="card-img" width="250px" height="300px">
-              <div class="card-shadow"></div>
-            </div>
-            <div class="card-data">
-              <h4 class="card-name">Layout</h4>
-
-            </div>
-          </article>
-          <article class="card-article swiper-slide">
-            <div class="card-image">
-              <img src="web.pic/logo/3D Glass Logo Mockup2.jpg" alt="image" class="card-img" width="250px" height="300px">
-              <div class="card-shadow"></div>
-            </div>
-            <div class="card-data">
-              <h4 class="card-name">Logo</h4>
-                        </div>
-          </article>
-         <article class="card-article swiper-slide">
-            <div class="card-image">
-              <img src="web.pic/character/Free_Hanging_Tote_Bag_Mockup_2.jpg" alt="image" class="card-img" width="250px" height="300px">
-              <div class="card-shadow"></div>
-            </div>
-            <div class="card-data">
-              <h4 class="card-name">Motion</h4>
-
-            </div>
-          </article>
-          <article class="card-article swiper-slide">
-            <div class="card-image">
-              <img src="web.pic/photomontage/1.jpg" alt="image" class="card-img" width="250px" height="300px">
-              <div class="card-shadow"></div>
-            </div>
-            <div class="card-data">
-              <h4 class="card-name">Photomontage</h4>
-
-            </div>
-          </article>
-          <article class="card-article swiper-slide">
-            <div class="card-image">
-              <img src="web.pic/stationary design/Us_Business_Card_Mockup_1.jpg" alt="image" class="card-img" width="250px" height="300px">
-              <div class="card-shadow"></div>
-            </div>
-            <div class="card-data">
-              <h4 class="card-name">stationary design</h4>
-
-            </div>
-          </article>
-          <article class="card-article swiper-slide">
-            <div class="card-image">
-              <img src="web.pic/typography/1.jpg" alt="image" class="card-img" width="250px" height="300px">
-              <div class="card-shadow"></div>
-            </div>
-            <div class="card-data">
-              <h4 class="card-name">Typography</h4>
-
-            </div>
-          </article>
-          <article class="card-article swiper-slide">
-            <div class="card-image">
-              <img src="web.pic/web.jpg" alt="image" class="card-img" width="250px" height="300px">
-              <div class="card-shadow"></div>
-            </div>
-            <div class="card-data">
-              <h4 class="card-name">Web</h4>
-
-            </div>
-          </article>
+    <section class="about mt-5 mb-5">
+      <h2 class="important">About Me</h2>
+      <h5>My name is <span class="important">Faezeh Amlahi</span>.</h5>
+      <p class="aboutP">
+        I hold a degree in graphic design and have gained valuable work
+        experience in this field, particularly within the advertising and
+        marketing departments of various business companies. To further enhance
+        my skill set, I have pursued training and actively engaged in the realm
+        of motion graphics. My interest in learning and mastering After Effects
+        has driven me to achieve successful projects in both graphic design and
+        motion graphics, both as a collaborative team member and as an
+        independent freelancer.
+      </p>
+      <div class="container text-center mt-5 mb-5">
+        <div class="row mb-2">
+          <div class="col"><img src="Icon/1.png" alt="" width="45px" /></div>
+          <div class="col"><img src="Icon/2.png" alt="" width="45px" /></div>
+          <div class="col"><img src="Icon/3.png" alt="" width="45px" /></div>
         </div>
+        <div class="row mt-4">
+          <div class="col"><img src="Icon/4.png" alt="" width="45px" /></div>
+          <div class="col"><img src="Icon/5.png" alt="" width="45px" /></div>
+          <div class="col"><img src="Icon/6.png" alt="" width="45px" /></div>
+        </div>
+      </div>
+      <h4 class="important mt-4">Education:</h4>
+      <div class="container d-flex justify-content-between">
+        <p class="aboutP">
+          Alzahra University <br />
+
+          Bachelor of Graphic Design,2016 - 2020
+        </p>
+
+        <a href="#" class="button mt-4">Download CV</a>
+      </div>
+    </section>
+    <!--Portfolio-->
+    <section class="portfolio pt-5">
+      <h2 class="pb-5 pt-3">Portfolio</h2>
+      <div class="card-container swiper">
+        <div class="card-content">
+          <div class="swiper-wrapper">
+            <article class="card-article swiper-slide">
+              <div class="card-image">
+                <img
+                  src="web.pic/character/3.jpg"
+                  alt="image"
+                  class="card-img"
+                  width="250px"
+                  height="300px"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card-data">
+                <h4 class="card-name">Character</h4>
+              </div>
+            </article>
+            <article class="card-article swiper-slide">
+              <div class="card-image">
+                <img
+                  src="web.pic/Instagram design/285.jpg"
+                  alt="image"
+                  class="card-img"
+                  height="300px"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card-data">
+                <h4 class="card-name">Instagram design</h4>
+              </div>
+            </article>
+            <article class="card-article swiper-slide">
+              <div class="card-image">
+                <img
+                  src="web.pic/layout/1.jpg"
+                  alt="image"
+                  class="card-img"
+                  width="250px"
+                  height="300px"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card-data">
+                <h4 class="card-name">Layout</h4>
+              </div>
+            </article>
+            <article class="card-article swiper-slide">
+              <div class="card-image">
+                <img
+                  src="web.pic/logo/3D Glass Logo Mockup2.jpg"
+                  alt="image"
+                  class="card-img"
+                  width="250px"
+                  height="300px"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card-data">
+                <h4 class="card-name">Logo</h4>
+              </div>
+            </article>
+            <article class="card-article swiper-slide">
+              <div class="card-image">
+                <img
+                  src="web.pic/character/Free_Hanging_Tote_Bag_Mockup_2.jpg"
+                  alt="image"
+                  class="card-img"
+                  width="250px"
+                  height="300px"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card-data">
+                <h4 class="card-name">Motion</h4>
+              </div>
+            </article>
+            <article class="card-article swiper-slide">
+              <div class="card-image">
+                <img
+                  src="web.pic/photomontage/1.jpg"
+                  alt="image"
+                  class="card-img"
+                  width="250px"
+                  height="300px"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card-data">
+                <h4 class="card-name">Photomontage</h4>
+              </div>
+            </article>
+            <article class="card-article swiper-slide">
+              <div class="card-image">
+                <img
+                  src="web.pic/stationary design/Us_Business_Card_Mockup_1.jpg"
+                  alt="image"
+                  class="card-img"
+                  width="250px"
+                  height="300px"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card-data">
+                <h4 class="card-name">stationary design</h4>
+              </div>
+            </article>
+            <article class="card-article swiper-slide">
+              <div class="card-image">
+                <img
+                  src="web.pic/typography/1.jpg"
+                  alt="image"
+                  class="card-img"
+                  width="250px"
+                  height="300px"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card-data">
+                <h4 class="card-name">Typography</h4>
+              </div>
+            </article>
+            <article class="card-article swiper-slide">
+              <div class="card-image">
+                <img
+                  src="web.pic/web.jpg"
+                  alt="image"
+                  class="card-img"
+                  width="250px"
+                  height="300px"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card-data">
+                <h4 class="card-name">Web</h4>
+              </div>
+            </article>
+          </div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
           <div class="swiper-pagination"></div>
-
-
-      </div>
-    </div>
-
-
-
-
-   </section>
-   <footer class="contact">
-    <h2 class="contact-me pt-5">Contact Me</h2>
-    <div class="container">
-      <div class="row text-center">
-        <div class="col"><h4><i class="fa-regular fa-envelope"></i></h4>
-        <h6 ><a class="contact-link" href="mailto:amlahifaezeh@gmail.com">amlahifaezeh@gmail.com</a></h6>
-        
         </div>
-        <div class="col"><h4><i class="fa-brands fa-linkedin"></i></h4>
-         <h6><a class="contact-link" href="https://www.linkedin.com/in/faezeh-amlahi-a87a0820a/" target="_blank" rel="noopener noreferrer">Faeze Amlahi</a></h6></div>
-        
       </div>
-    <div class="HButtton mt-3">
-    <a href="#"  class="hompageButton">  Home  </a>
-    </div>
-      
-   </div>
-   </footer>
-  <script src="script.js"></script>
+    </section>
+    <footer class="contact">
+      <h2 class="contact-me pt-5">Contact Me</h2>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h4><i class="fa-regular fa-envelope"></i></h4>
+            <h6>
+              <a class="contact-link" href="mailto:amlahifaezeh@gmail.com"
+                >amlahifaezeh@gmail.com</a
+              >
+            </h6>
+          </div>
+          <div class="col">
+            <h4><i class="fa-brands fa-linkedin"></i></h4>
+            <h6>
+              <a
+                class="contact-link"
+                href="https://www.linkedin.com/in/faezeh-amlahi-a87a0820a/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Faeze Amlahi</a
+              >
+            </h6>
+          </div>
+        </div>
+        <div class="HButtton mt-3">
+          <a href="#" class="hompageButton"> Home </a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
