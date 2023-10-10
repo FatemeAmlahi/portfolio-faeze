@@ -71,6 +71,10 @@ h2 {
 h4 {
   color: var(--color-light);
 }
+button {
+  border: white;
+  background-color: white;
+}
 .about {
   max-width: 70%;
   display: block;
@@ -228,6 +232,12 @@ i {
   .intro {
     margin: 80px !important;
     margin-top: 10rem !important;
+  }
+  .button {
+    margin: 1px !important;
+  }
+  .hide {
+    display: none;
   }
 }
 @media screen and (max-width: 800px) {
