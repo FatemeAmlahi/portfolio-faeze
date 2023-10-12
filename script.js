@@ -35,7 +35,7 @@ let swiperCards = new Swiper(".card-content", {
     },
   },
 });
-var sidemenu = document.getElementsById("sidemenu");
+var sidemenu = document.getElementById("sidemenu");
 let isOpen = false;
 
 function openmenu() {

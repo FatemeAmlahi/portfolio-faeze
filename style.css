@@ -24,6 +24,9 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+nav ul {
+  transition: 0.5s;
+}
 nav ul li {
   display: inline-block;
   list-style: none;
@@ -147,6 +150,9 @@ button {
 .card-name {
   color: white;
   margin-bottom: 0.75rem;
+}
+.cardsLink {
+  text-decoration: none !important;
 }
 
 .swiper-button-prev::after,
