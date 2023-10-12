@@ -36,10 +36,19 @@ let swiperCards = new Swiper(".card-content", {
   },
 });
 var sidemenu = document.getElementsById("sidemenu");
+let isOpen = false;
 
 function openmenu() {
-  sidemenu.style.right = 0;
+  if (!isOpen) {
+    sidemenu.style.right = "0px";
+  } else {
+    sidemenu.style.right = "-200px";
+  }
+  isOpen = !isOpen;
 }
+
+const menuButton = document.querySelector("#menu-button");
+menuButton.addEventListener("click", openmenu);
 
 function closemenu() {
   sidemenu.style.right = "-200px";

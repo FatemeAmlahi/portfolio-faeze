@@ -250,7 +250,7 @@ i {
     position: fixed !important;
 
     top: 0 !important;
-    right: -200px !important;
+    right: -200px;
     width: 200px !important;
     height: 100vh !important;
     padding-top: 50px !important;
