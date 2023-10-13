@@ -1,0 +1,40 @@
+:root {
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Playfair Display", serif;
+
+  --color-dark: #202a45;
+  --color-light: #99a2a0;
+  --color-branding: #e1bccf;
+}
+
+h4 {
+  text-align: left;
+  margin-left: 45px;
+}
+img {
+  box-shadow: 2px 2px 3px var(--color-light);
+}
+a {
+  text-decoration: none !important;
+  color: var(--color-branding) !important;
+}
+a:hover {
+  color: var(--color-light) !important;
+  transition: 0.5s;
+}
+.homepageButton {
+  margin: 25px;
+}
+.content {
+  margin-top: 50px !important;
+  margin-bottom: 100px !important;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: var(--color-dark);
+  background-color: white;
+}
+
+.discription {
+  text-align: left;
+  margin-left: 45px;
+}
