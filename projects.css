@@ -16,11 +16,15 @@ img {
 }
 a {
   text-decoration: none !important;
-  color: var(--color-branding) !important;
+  color: var(--color-dark) !important;
 }
 a:hover {
-  color: var(--color-light) !important;
+  color: var(--color-branding) !important;
   transition: 0.5s;
+}
+hr {
+  color: var(--color-branding) !important;
+  height: 5px !important;
 }
 .homepageButton {
   margin: 25px;
@@ -28,7 +32,7 @@ a:hover {
 .content {
   margin-top: 50px !important;
   margin-bottom: 100px !important;
-  max-width: 1000px;
+  max-width: 800px;
   margin: 0 auto;
   color: var(--color-dark);
   background-color: white;
