@@ -32,7 +32,7 @@ hr {
 .content {
   margin-top: 50px !important;
   margin-bottom: 100px !important;
-  max-width: 800px;
+  max-width: 1300px;
   margin: 0 auto;
   color: var(--color-dark);
   background-color: white;
@@ -44,4 +44,20 @@ hr {
 }
 .fa-circle-up {
   font-size: 20px;
+}
+.discript {
+  padding-left: 15px;
+  padding-top: 55px;
+}
+.larger {
+  margin-top: 90px;
+}
+@media (max-width: 800px) {
+  .discript {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .larger {
+    margin-top: 0;
+  }
 }
