@@ -194,6 +194,9 @@ button {
 i {
   color: var(--color-dark);
 }
+.align {
+  padding-top: 5px;
+}
 .contact-link {
   text-decoration: none;
   color: var(--color-dark);
