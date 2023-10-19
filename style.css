@@ -154,9 +154,6 @@ button {
 .cardsLink {
   text-decoration: none !important;
 }
-.cardsLink:hover {
-  background-color: #0e5143;
-}
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
